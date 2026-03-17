@@ -30,13 +30,21 @@ Frontend
 ## How to Run PriorityQueue Srtucture 
 
  Redis --> cd "C:\Program Files\Redis"  --> .\redis-cli.exe
+ 
  MongoDB --> C:\Program Files\MongoDB\Server\8.2\bin --> .\mongod.exe
+ 
  Backend Server --> cd backend --> node src/server.js
+ 
  AI-Service --> cd ai-server --> python train.py
+ 
  Worker --> cd backend --> node src/worker/worker.js
+ 
  Scaler --> cd backend --> node src/worker/scaler.js
+ 
  DLQ --> cd backend --> npm run dlq
+ 
  Frontend --> cd dashboard/frontend --> npm run dev
+ 
  Load Simulator --> cd load-test --> node loadSimulator.js
 
 To Remone all previous requests from Mongodb and redis run in diff terminals
